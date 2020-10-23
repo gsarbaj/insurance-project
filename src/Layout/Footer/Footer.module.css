@@ -1,0 +1,13 @@
+.Footer {
+    background-color: #003478;
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+.Footer__copyright {
+    max-width: 225px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}

@@ -1,0 +1,27 @@
+.Producers {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.Producers__title {
+    padding-left: 18px;
+    max-width: 200px;
+    position: relative;
+    color: #003486;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1em;
+    text-align: left;
+}
+
+.Producers__title::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 45px;
+    background-color: #003478;
+    position: absolute;
+    top: 3px;
+    left: 0;
+}

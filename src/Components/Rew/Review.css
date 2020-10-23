@@ -1,0 +1,54 @@
+.review {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.review .rec-carousel-wrapper {
+    position: relative;
+}
+
+.review .rec-arrow {
+    display: none;
+}
+
+.review .rec-pagination {
+    position: absolute;
+    bottom: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.review .rec-dot {
+    margin: 0 25px;
+    width: 75px;
+    height: 75px;
+    box-shadow: none;
+    opacity: 0.5;
+}
+
+.review .rec-dot:hover,
+.review .rec-dot:focus {
+    box-shadow: none;
+}
+
+.review .rec-dot_active {
+    width: 98px;
+    height: 98px;
+    box-shadow: none;
+    opacity: 0.7;
+}
+
+.review .rec-dot:first-child {
+    background-image: url("../../img/testimonial1.jpg");
+    background-size: cover;
+}
+
+.review .rec-dot:nth-child(2) {
+    background-image: url("../../img/testimonial2.jpg");
+    background-size: cover;
+}
+
+.review .rec-dot:nth-child(3) {
+    background-image: url("../../img/testimonial3.jpg");
+    background-size: cover;
+}

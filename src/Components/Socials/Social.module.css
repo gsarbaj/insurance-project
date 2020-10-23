@@ -1,0 +1,17 @@
+.Social__item {
+    padding: 0 15px;
+}
+
+.Social__item:not(:last-of-type) {
+    border-right: 1px solid #ccd7e6;
+}
+
+.Social__item a,
+.Social__item a:visited {
+    color: #003478;
+}
+
+.Social__item a:hover {
+    color: #00449e;
+}
+

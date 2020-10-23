@@ -1,0 +1,106 @@
+.ContactFormBig {
+    padding: 40px 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 35px 48px 0 rgba(0,0,0,.07);
+    text-align: left;
+}
+
+.ContactFormBig h4 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #003478;
+    line-height: 2.5;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: -.56px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.ContactFormBig > span {
+    color: #193656;
+    font-size: 16px;
+}
+
+.ContactFormBig form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ContactFormBig input {
+    margin-bottom: 15px;
+    padding-left: 55px;
+    min-height: 50px;
+    color: #666666;
+    box-shadow: 0 35px 50px 0 rgba(0,0,0,.07);
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ContactFormBig input:focus {
+    box-shadow: none;
+    border-color: inherit;
+}
+
+.ContactFormBig button {
+    margin-bottom: 30px;
+    background-color: #003478;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ContactFormBig button:hover {
+    background-color: #00449e;
+}
+
+.ContactFormBig button:active {
+    background-color: #0062cc;
+}
+
+.ContactFormBig ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.ContactFormBig li {
+    color: gold;
+}
+
+.ContactFormBig li:not(:last-child) {
+    margin-right: 5px;
+}
+
+.ContactFormBig__clients {
+    color: #193656;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -.5px;
+}
+
+.ContactFormBig select {
+    margin-bottom: 15px;
+    padding-left: 55px;
+    min-height: 50px;
+    color: #666666;
+    box-shadow: 0 35px 50px 0 rgba(0,0,0,.07);
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ContactFormBig select:focus {
+    box-shadow: none;
+    border-color: inherit;
+}

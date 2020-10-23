@@ -1,0 +1,72 @@
+.Wrapper{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.Wrapper__extraNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Wrapper__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Wrapper__mainNav {
+    background-color: #003478;
+    border-radius: 5px;
+}
+
+.Wrapper__sectionTrigger {
+    width: 1110px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.Wrapper__cardSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.Wrapper__formSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+    text-align: left;
+}
+
+.Wrapper__lineQuestion {
+    padding: 0 50px;
+    min-height: 98px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: #003478;
+    border-radius: 5px;
+}
+
+.Wrapper__producers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Wrapper__infoSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Wrapper__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Wrapper__blog {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}

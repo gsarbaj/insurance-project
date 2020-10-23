@@ -1,0 +1,53 @@
+.ProducktDescriptionCard {
+    padding: 40px;
+    box-sizing: border-box;
+    width: 540px;
+    min-height: 258px;
+    border-radius: 5px;
+    border: 1px solid #edeff2;
+    box-shadow: 0 35px 50px 0 rgba(0, 0, 0, 0.07);
+    text-align: left;
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 102px;
+    left: 40px;
+}
+
+.title{
+    margin: 0;
+    margin-bottom: 30px;
+    color: #003478;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.text{
+    padding-left: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5a5a5a;
+}
+
+.link{
+    margin-left: 100px;
+    font-weight: 700;
+    color: #003478;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.ProducktDescriptionCard:hover {
+    box-shadow: none;
+}
+
+/*<article class=features__card> // х4, компонент*/
+/*//     <svg class=features__icon>*/
+/*//     <h3 class=features__title> text*/
+/*//     <p class=features__text> text*/
+/*//     <a class=features__link> text*/

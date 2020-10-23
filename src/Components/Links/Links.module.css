@@ -1,0 +1,17 @@
+.Link__item {
+    font-size: 15px;
+    padding: 0 15px;
+}
+
+.Link__item:not(:last-child){
+    border-right: 1px solid #ccd7e6;
+}
+
+.Link__item a {
+    color: #003478;
+    text-decoration: none;
+}
+
+.Link__icon{
+
+}

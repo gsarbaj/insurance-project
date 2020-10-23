@@ -1,0 +1,36 @@
+.HeaderContacts__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ccd7e6;
+    padding-left: 60px;
+    text-align: left;
+}
+
+.HeaderContacts__iconWrapper{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #a8c4e9;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: 17px;
+    display: flex;
+    justify-content: center;
+    color: #003478;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.HeaderContacts__text{
+    font-weight: bold;
+    color: #7f99bb;
+    font-size: 14px;
+}
+
+.HeaderContacts__link{
+    font-size: 18px;
+    color: #003478;
+    text-decoration: none;
+    font-weight: bold;
+}

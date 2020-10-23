@@ -1,0 +1,9 @@
+.BlogLayout {
+    margin-top: 350px;
+    min-height: 200px;
+    background-color: #f0f4f9;
+    background-image: url("../../img/blog_bg_pattern.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,60 @@
+.NewsLetter {
+    flex-basis: 255px;
+}
+
+.NewsLetter h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #003478;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.NewsLetter span {
+    color: #666666;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.NewsLetter__form {
+    margin-top: 20px;
+}
+
+.NewsLetter__form input {
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    width: 255px;
+    height: 46px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    color: #495057;
+    text-align: left;
+}
+
+.NewsLetter__form button {
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    background-color: #003478;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.NewsLetter__form button:hover {
+    background-color: #00449e;
+}
+
+.NewsLetter__form button:active {
+    background-color: #0062cc;
+}
+
+
+
+.NewsLetter__form button i {
+    margin-right: 5px;
+}

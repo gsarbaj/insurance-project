@@ -1,0 +1,25 @@
+.ButtonFilled {
+    box-sizing: border-box;
+    padding-top: 13px;
+    width: 170px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 52, 120);
+}
+
+.ButtonFilled i {
+    margin-right: 5px;
+}
+
+.ButtonFilled:hover,
+.ButtonFilled:active {
+    background-color: transparent;
+    color: #ffffff;
+}

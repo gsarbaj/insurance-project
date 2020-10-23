@@ -1,0 +1,36 @@
+.PersonalData {
+
+}
+
+.PersonalData img {
+    border: 1px solid #edeff2;
+    border-radius: 5px;
+}
+
+.PersonalData h3 {
+    margin: 0;
+    margin-top: 15px;
+    color: #003478;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: -.36px;
+    font-size: 18px;
+}
+
+.PersonalData span {
+    color: #7f99bb;
+    font-size: 13px;
+}
+
+.PersonalData:hover img {
+    box-shadow: 0 25px 35px 0 rgba(34,47,90,.25);
+    filter: grayscale(1);
+}
+
+.PersonalData:hover h3 {
+    text-decoration: underline;
+}
+
+.PersonalData:hover span {
+    color: #003478;
+}

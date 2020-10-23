@@ -1,0 +1,52 @@
+.PersonalCarousel {
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+.PersonalCarousel .rec-arrow {
+    display: none;
+}
+
+.PersonalCarousel .rec-carousel-wrapper {
+    position: relative;
+}
+
+.PersonalCarousel .rec-slider-container {
+    margin: 0;
+}
+
+.PersonalCarousel .rec-pagination {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -50px;
+}
+
+.PersonalCarousel .rec-dot {
+    margin: 7px;
+    padding: 0;
+    width: 6px;
+    height: 6px;
+    background-color: rgba(34,47,90,.2);
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+.PersonalCarousel .rec-dot:hover,
+.PersonalCarousel .rec-dot:focus {
+    background-color: #869791;
+    box-shadow: none;
+}
+
+.PersonalCarousel .rec-dot_active {
+    width: 14px;
+    height: 14px;
+    transform: translateX(-4px);
+    background-color: transparent;
+    border: 1px solid #003478;
+}
+
+.PersonalCarousel .rec-dot_active:hover,
+.PersonalCarousel .rec-dot_active:active {
+    background-color: transparent;
+}

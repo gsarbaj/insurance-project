@@ -1,0 +1,24 @@
+.PicText__title {
+    margin: 0;
+    margin-bottom: 30px;
+    width: 78%;
+    color: #003488;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 44px;
+    letter-spacing: -1.08px;
+    text-align: left;
+}
+
+.PicText__text {
+    margin: 0;
+    color: #193656;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.PicText__img {
+    margin-top: 20px;
+}

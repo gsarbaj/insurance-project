@@ -1,0 +1,66 @@
+.TriggerCard{
+    margin: 0 15px;
+    position: relative;
+    width: 255px;
+    height: 330px;
+}
+
+.img{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper{
+    display: none;
+    padding: 65px 40px;
+    width: 255px;
+    height: 330px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg,rgba(0,52,120,.9) 0%,rgba(0,52,120,.9) 100%);
+}
+
+.icon{
+
+}
+
+.title{
+    margin: 0;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.desc{
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.TriggerCard:hover,
+.TriggerCard:active {
+    box-shadow: 0 25px 35px 0 rgba(34,47,90,.25);
+}
+
+.TriggerCard:hover .wrapper,
+.TriggerCard:active .wrapper {
+    display: flex;
+}
+
+/*// <article class=card> // x4, карточка компонент*/
+/*//     <img class=card__img>*/
+/*//     <div class=card__wrapper>*/
+/*//     <svg class=card__icon>*/
+/*//     <h3 class=card__title> text*/
+/*//     <p class=card__desc> text*/

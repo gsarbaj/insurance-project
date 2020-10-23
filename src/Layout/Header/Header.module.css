@@ -1,0 +1,44 @@
+header {
+    position: relative;
+    z-index: 1;
+}
+
+.Header__extraNav{
+    background-color: #f0f4f9;
+}
+
+.Header__info{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.Header__mainNav{
+
+}
+
+.Header__wrapper{
+
+}
+
+.Social__list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.Header__data {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.Header__data li {
+    padding-right: 30px;
+}
+
+.Header__data li:last-child {
+    padding-left: 30px;
+    padding-right: 0;
+}

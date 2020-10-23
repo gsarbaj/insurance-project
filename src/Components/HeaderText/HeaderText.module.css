@@ -1,0 +1,43 @@
+.HeaderText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderText h2 {
+    max-width: 390px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-right: 36px;
+    color: #003478;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 44px;
+    letter-spacing: -1.08px;
+    text-align: right;
+    position: relative;
+}
+
+.HeaderText h2::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 72px;
+    background-color: #003478;
+    position: absolute;
+    top: 10px;
+    right: -36px;
+}
+
+.HeaderText p {
+    margin: 0;
+    max-width: 426px;
+    box-sizing: border-box;
+    color: #193656;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 30px;
+    text-align: left;
+}
