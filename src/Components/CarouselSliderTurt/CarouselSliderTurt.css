@@ -1,0 +1,11 @@
+.MainSlider {
+    margin-top: -32px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.Turt {
+    background: linear-gradient(90deg, rgb(0, 52, 120) 0%, rgba(0, 52, 120, 0.1) 70%, rgba(0, 52, 120, 0.1) 100%),  url("../../img/slide3.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+}

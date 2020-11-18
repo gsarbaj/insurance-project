@@ -1,0 +1,63 @@
+.CarouselSliderContent {
+    margin: 0 auto;
+    padding-top: 195px;
+    padding-bottom: 195px;
+    width: 1110px;
+    text-align: left;
+}
+
+.CarouselSliderContent__desc {
+    color: #ffffff;
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+}
+
+.CarouselSliderContent__desc::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    right: -90px;
+}
+
+.CarouselSliderContent h1 {
+    margin: 0;
+    margin-top: 15px;
+    width: 65%;
+    text-transform: uppercase;
+    line-height: 58px;
+    font-weight: 800;
+    font-size: 52px;
+    color: #ffffff;
+}
+
+.CarouselSliderContent p {
+    margin: 20px 0 30px;
+    padding-left: 20px;
+    width: 42%;
+    position: relative;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.CarouselSliderContent p::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 56px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.CarouselSliderContent a:first-of-type {
+    margin-right: 20px;
+}

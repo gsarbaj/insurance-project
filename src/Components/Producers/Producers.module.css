@@ -25,3 +25,12 @@
     top: 3px;
     left: 0;
 }
+
+.Producers img {
+    filter: grayscale(1);
+    opacity: 0.4;
+}
+
+.Producers img:hover {
+    filter: none;
+}

@@ -7,8 +7,8 @@ import Wrapper from "../../Layout/Wrapper/Wrapper";
 
 const InfoSection = props => {
 
-   const links=['Our Story', 'News & Blogs', 'Careers', 'Customer Support', 'Contact Us', 'Website Accessibility']
-   const links2=['Auto Insurance', 'Home Insurance', 'Claims', 'Agent Locator', 'Express Access', 'Money Back Policy']
+   const links=['Gyvybės draudimas', 'Būsto draudimas', 'Kelionių draudimas', 'Turto draudimas', 'KASKO draudimas', 'TPVCAD draudimas']
+   const links2=['Apie kompaniją', 'Karjera', 'Įvykių deklaracijos', 'Draudimo išmokos ', 'Informacija klientams', 'Privatumo politika']
 
     return(
         <section className = {classes.InfoSection}>
@@ -23,14 +23,14 @@ const InfoSection = props => {
                 />
                 <ContactData
                     title={'KONTAKTAI'}
-                    text={'We’re here to listen:'}
-                    address={'2390 NW 2nd Ave, Miami FL 33127, USA'}
+                    text={'Reikalinga pagalba?'}
+                    address={'J. Basanavičiaus g. 12 03600 Vilnius'}
                     phone={'+370 655 70 255'}
-                    wt={'9am to 7pm EST Monday to Friday'}
+                    wt={'9.00 iki 17.00'}
                 />
                 <NewsLetter
                     title={'DAUGIAU INFORMACIJOS'}
-                    text={'Įveskite savo elektroninio pašto adresą paštu ir mes išsiuntėme papildomos informacijos apie draudimą'}
+                    text={'Įveskite savo elektroninio pašto adresą ir mes išsiuntėme papildomos informacijos apie draudimą'}
                 />
             </Wrapper>
         </section>

@@ -12,18 +12,18 @@ const BlogLayout = () => {
             <Wrapper styleClass = {"Wrapper Wrapper__blog"}>
                 <Blog
                     img={img1}
-                    title={'ERVING THE INTERESTS OF OUR CLIENTS ABLE TO ADD ON'}
-                    text={'SEPTEMBER 23, 2019'}
+                    title={'eismo įvykio deklaraciją galima pildyti internete'}
+                    text={'Rugsėjo 29, 2020'}
                 />
                 <Blog
                     img={img2}
-                    title={'ERVING THE INTERESTS OF OUR CLIENTS ABLE TO ADD ON'}
-                    text={'SEPTEMBER 23, 2019'}
+                    title={'būsto rinka didėja, išauga paklausa būsto draudimui'}
+                    text={'Gegužio 16, 2020'}
                 />
                 <Blog
                     img={img3}
-                    title={'ERVING THE INTERESTS OF OUR CLIENTS ABLE TO ADD ON'}
-                    text={'SEPTEMBER 23, 2019'}
+                    title={'namų saugumu rūpinasi vis daugiau klientų'}
+                    text={'Rugsėjo 19, 2020'}
                 />
             </Wrapper>
         </section>

@@ -14,8 +14,9 @@ const ProductCardSection = () => {
             <Wrapper styleClass = {"Wrapper Wrapper__cardSection"}>
                 <ProducktDescriptionCard
                     svg={card1_icon}
-                    title={'Automobilio draudimas'}
-                    text={'Privalomasis draudimas ir KASKO ne tik atlygina žalą, bet ir gali padeti  transportuoti sugedusi automobili'}
+                    title={'Turto draudimas'}
+                    text={'Apdraudus automobilį apsaugosite ne tik save, bet ir savo artimųjų sveikatą bei turtą. \n' +
+                    'Kasko draudimas atlygins žalą, jeigu įvažiuosite į medį.'}
                     to={'/automobilio'}
                     link={'Skaityti daugiau'}
                 />
@@ -23,7 +24,7 @@ const ProductCardSection = () => {
                 <ProducktDescriptionCard
                     svg={card2_icon}
                     title={'Asmens draudimas'}
-                    text={'Aliquam posuere gravida wolf moon retro. Hella ironic before they sold out pitchfork gastropub dreamccher. gravida vitae euismod quis felis.'}
+                    text={'Pasirūpinkite savimi ir savo artimųjų ateitimi. Sutaupykite nuo 33 600eur jūsų ateičiai.'}
                     to={'/asmens#'}
                     link={'Skaityti daugiau'}
                 />
@@ -31,7 +32,8 @@ const ProductCardSection = () => {
                 <ProducktDescriptionCard
                     svg={card3_icon}
                     title={'Gyvybės draudimas'}
-                    text={'Aliquam posuere gravida wolf moon retro. Hella ironic before they sold out pitchfork gastropub dreamccher. gravida vitae euismod quis felis.'}
+                    text={'Būkite apsaugoti nuo nelaimingų atsitikimų.\n' +
+                    'Draudimas pasirūpins, jeigu negalėsite dirbti dėl atsitikusios traumos.'}
                     to={'/gyvybes'}
                     link={'Skaityti daugiau'}
                 />
@@ -39,7 +41,8 @@ const ProductCardSection = () => {
                 <ProducktDescriptionCard
                     svg={card4_icon}
                     title={'Turto draudimas'}
-                    text={'Aliquam posuere gravida wolf moon retro. Hella ironic before they sold out pitchfork gastropub dreamccher. gravida vitae euismod quis felis.'}
+                    text={'Jūsų namai bus apsaugoti. Nebijokite vagių ir gaisro. \n' +
+                    'Jūsų turtas saugus netgi automobilyje.'}
                     to={'/turto'}
                     link={'Skaityti daugiau'}
                 />

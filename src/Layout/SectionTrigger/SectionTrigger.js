@@ -18,31 +18,31 @@ const SectionTrigger = () => {
             <Wrapper styleClass = {"Wrapper__sectionTrigger"}>
                 <TriggerCard
                     pic={pic1}
-                    alt={''}
+                    alt={'Draudimo ekspertai'}
                     svg={pic1_icon}
-                    title={'TRUSTWORTHY COMPANY'}
-                    desc={'We are committed to providing pro'}
+                    title={'Draudimo ekspertai'}
+                    desc={'Reikalingi draudimo sprendimai'}
                 />
                 <TriggerCard
                     pic={pic2}
-                    alt={''}
+                    alt={'Draudimo ekspertai'}
                     svg={pic2_icon}
-                    title={'TRUSTWORTHY COMPANY'}
-                    desc={'We are committed to providing pro'}
+                    title={'Draudimo ekspertai'}
+                    desc={'Reikalingi draudimo sprendimai'}
                 />
                 <TriggerCard
                     pic={pic3}
-                    alt={''}
+                    alt={'Draudimo ekspertai'}
                     svg={pic3_icon}
-                    title={'TRUSTWORTHY COMPANY'}
-                    desc={'We are committed to providing pro'}
+                    title={'Draudimo ekspertai'}
+                    desc={'Reikalingi draudimo sprendimai'}
                 />
                 <TriggerCard
                     pic={pic4}
-                    alt={''}
+                    alt={'Draudimo ekspertai'}
                     svg={pic4_icon}
-                    title={'TRUSTWORTHY COMPANY'}
-                    desc={'We are committed to providing pro'}
+                    title={'Draudimo ekspertai'}
+                    desc={'Reikalingi draudimo sprendimai'}
                 />
             </Wrapper>
         </section>

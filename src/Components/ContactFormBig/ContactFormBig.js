@@ -8,20 +8,20 @@ const ContactFormBig = props => {
 
 
     // eslint-disable-next-line no-undef
-    const emailSend = () => { console.log('Test')
-        Email.send({
-        Host : "smtp.yandex.com",
-        Username : "info@draudimopasiulymai.lt",
-        Password : "3gqPGkTCU6sy6MzH",
-        To : 'klientas@draudimopasiulymai.lt',
-        From : "klientas@draudimopasiulymai.lt",
-        Subject : "Naujas klientas " + input.name,
-        Body : `Vardas: ${input.name} \n
-                Tel: ${input.tel} \n
-                Produktas: ${input.prod}`
-    }).then(
-        message => console.log(message)
-    );}
+    // const emailSend = () => { console.log('Test')
+    //     Email.send({
+    //     Host : "mail.imta.icu",
+    //     Username : "smtp@imta.icu",
+    //     Password : "!Genryh38312290966",
+    //     To : 'smtp@imta.icu',
+    //     From : "smtp@imta.icu",
+    //     Subject : "Naujas klientas " + input.name,
+    //     Body : `Vardas: ${input.name} \n
+    //             Tel: ${input.tel} \n
+    //             Produktas: ${input.prod}`
+    // }).then(
+    //     message => console.log(message)
+    // );}
 
     const input = {
         prod: 'Gyvybės draudimas'
@@ -34,7 +34,7 @@ const ContactFormBig = props => {
         val[1].value = ''
         val[2].value = ''
         console.log(input)
-        emailSend()
+
     }
 
     const inputHandlerName = (event) => {
@@ -91,13 +91,11 @@ const ContactFormBig = props => {
                     placeholder='Telefono numeris'
                 />
 
-                {/*<input type="text"   onBlur={inputHandlerName}/>*/}
-                {/*<input type="text" onBlur={inputHandlerTel}/>*/}
                 <select type="select" onBlur={inputHandlerProduct}>
                     <option value="Gyvybės draudimas">Gyvybės draudimas</option>
                     <option value="Turto draudimas">Turto draudimas</option>
-                    <option value="1">1</option>
-                    <option value="1">1</option>
+                    <option value="KASKO draudimas">KASKO draudimas</option>
+                    <option value="TPVCAD draudimas">TPVCAD draudimas</option>
                 </select>
                 <button onClick={clickHandler}>{props.button}</button>
                 <div>

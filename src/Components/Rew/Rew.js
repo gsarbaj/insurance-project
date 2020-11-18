@@ -17,20 +17,20 @@ const Rew = props => {
                     disableArrowsOnEnd={false}
                 >
                     <RewContent
-                        text={'Very helpful fully explaining the different plans. Cash value is accessed via policy loans, which accrue interest and reduce cash value our valuable items'}
-                        name={'MARIA MARLIN'}
-                        jobTitle={'Retired Govt Officer, ON, Canada'}
+                        text={'Jau 2 metus draudžiuosi savo automobilį ir gaunu pigiausia kaina rinkoje. Prieš pasibaigiant draudimui brokeriai visad paskambina ir pasiūlo pratęsti. '}
+                        name={'DOVIDAS KAZLAUSKAS'}
+                        jobTitle={'Apskaitininkas, Kaunas'}
                     />
 
                     <RewContent
-                        text={'Very helpful fully explaining the different plans. Cash value is accessed via policy loans, which accrue interest and reduce cash value our valuable items'}
-                        name={'MARIA MARLIN'}
-                        jobTitle={'Retired Govt Officer, ON, Canada'}
+                        text={'Geras draudimas, patiko, kad nebrangus. Puiku naudoti "Pagalba kelyje" kai reike pervežti mašina.'}
+                        name={'JONAS SAVICKAS'}
+                        jobTitle={'Vadybininkas, Vilnius'}
                     />
                     <RewContent
-                        text={'Very helpful fully explaining the different plans. Cash value is accessed via policy loans, which accrue interest and reduce cash value our valuable items'}
-                        name={'MARIA MARLIN'}
-                        jobTitle={'Retired Govt Officer, ON, Canada'}
+                        text={'Esu čia apsidraudęs gyvybės draudimu ir kaupiamuoju. Praėjusiais metais patyriau kelio traumą, nusiunčiau reikiamus dokumentus ir greitai gavau išmoką'}
+                        name={'OLGA STANULIENE'}
+                        jobTitle={'Mokytoja, Klaipėda'}
                     />
 
                 </ReactElasticCarousel>

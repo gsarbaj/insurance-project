@@ -12,10 +12,10 @@ const Producers = props => {
         <div className={classes.Producers}>
             <Wrapper styleClass = {"Wrapper Wrapper__producers"}>
                 <div className={classes.Producers__title}>{props.text}</div>
-                <div><img src={logo1} alt=""/></div>
+                <div><img src={logo4} alt=""/></div>
                 <div><img src={logo2} alt=""/></div>
                 <div><img src={logo3} alt=""/></div>
-                <div><img src={logo4} alt=""/></div>
+                <div><img src={logo1} alt=""/></div>
             </Wrapper>
         </div>
     )

@@ -17,16 +17,18 @@ import img3 from '../../img/blog_image8.jpg'
 import Producers from "../../Components/Producers/Producers";
 import InfoSection from "../../Components/InfoSection/InfoSection";
 import BlogLayout from "../BlogLayout/BlogLayout";
+import CarouselSliderAut from "../../Components/CarouselSliderAut/CarouselSlider";
+import CarouselSliderTurt from "../../Components/CarouselSliderTurt/CarouselSlider";
 
 
 
-const Main = () => {
+const Turto = () => {
 
     return(
 
     <main>
 
-        <CarouselSlider/>
+        <CarouselSliderTurt/>
         <HeaderText title={'Geresnis būdas draustis'} text={'Draudimo brokeris turi daug patirties – todėl gali pasiūlyti geriausią draudimo variantą'}/>
         <SectionTrigger/>
         <QestionSliderBlock/>
@@ -66,4 +68,4 @@ const Main = () => {
 }
 
 
-export default Main
+export default Turto

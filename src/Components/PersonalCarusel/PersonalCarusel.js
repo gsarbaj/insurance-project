@@ -22,43 +22,43 @@ const PersonalCarusel = props => {
 
                     <PersolalCaruselData
                         src={ti1}
-                        name={'LEO ALEXANDER'}
-                        jobTitle={'Marketing Ex'}
+                        name={'Mantas Kazlauskas'}
+                        jobTitle={'draudimo vadybininkas'}
                     />
                     <PersolalCaruselData
                         src={ti2}
-                        name={'LEO ALEXANDER'}
-                        jobTitle={'Marketing Ex'}
+                        name={'solveiga Mariniūtė'}
+                        jobTitle={'draudimo vadybininke'}
                     />
                     <PersolalCaruselData
                         src={ti3}
-                        name={'LEO ALEXANDER'}
-                        jobTitle={'Marketing Ex'}
+                        name={'Antanas Petkūnas'}
+                        jobTitle={'draudimo vadybininkas'}
                     />
                     <PersolalCaruselData
                         src={ti4}
-                        name={'LEO ALEXANDER'}
-                        jobTitle={'Marketing Ex'}
+                        name={'Saulė Karklytė'}
+                        jobTitle={'draudimo vadybininke'}
                     />
                     <PersolalCaruselData
                         src={ti1}
-                        name={'LEO ALEXANDER'}
-                        jobTitle={'Marketing Ex'}
+                        name={'Mantas Kazlauskas'}
+                        jobTitle={'draudimo vadybininkas'}
                     />
                     <PersolalCaruselData
                         src={ti2}
-                        name={'LEO ALEXANDER'}
-                        jobTitle={'Marketing Ex'}
+                        name={'solveiga Mariniūtė'}
+                        jobTitle={'draudimo vadybininke'}
                     />
                     <PersolalCaruselData
                         src={ti3}
-                        name={'LEO ALEXANDER'}
-                        jobTitle={'Marketing Ex'}
+                        name={'Antanas Petkūnas'}
+                        jobTitle={'draudimo vadybininkas'}
                     />
                     <PersolalCaruselData
                         src={ti4}
-                        name={'LEO ALEXANDER'}
-                        jobTitle={'Marketing Ex'}
+                        name={'Saulė Karklytė'}
+                        jobTitle={'draudimo vadybininke'}
                     />
 
                 </ReactElasticCarousel>
