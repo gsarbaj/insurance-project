@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./Layout/Header/Header";
 import Main from "./Layout/Main/Main";
 import Footer from "./Layout/Footer/Footer";
-import {Route, Switch, Redirect, withRouter, BrowserRouter} from 'react-router-dom'
+import {Route, Switch, Redirect} from 'react-router-dom'
 import Automobilio from "./Layout/Automobilio/Automobilio";
 import Turto from "./Layout/Turto/Turto";
 import Gyv from "./Layout/Gyv/Gyv";

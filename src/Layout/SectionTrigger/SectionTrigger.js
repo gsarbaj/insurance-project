@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from "../Main/Main.module.css";
 import TriggerCard from "../../Components/TriggerCard/TriggerCard";
-import {SocialData} from "../../Data/DataSocial";
 import pic1 from '../../img/feature_image1.jpg'
 import pic2 from '../../img/feature_image2.jpg'
 import pic3 from '../../img/feature_image3.jpg'

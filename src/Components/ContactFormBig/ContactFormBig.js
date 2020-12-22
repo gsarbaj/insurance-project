@@ -1,10 +1,20 @@
 import React from 'react';
+import axios from 'axios'
 import classes from './ContactFormBig.module.css'
-import {Email} from "./smtp";
 import {IMaskInput} from 'react-imask'
 
 
 const ContactFormBig = props => {
+
+    const formSend=(input)=>{
+
+        axios.post('https://mto.by/api/form', input)
+            .then(res=>{
+                console.log(input)
+            }).catch(() => {
+            console.log('message not sent');
+        })
+    }
 
 
     // eslint-disable-next-line no-undef
@@ -24,6 +34,7 @@ const ContactFormBig = props => {
     // );}
 
     const input = {
+        toMail: 'info@draudimopasiulymai.lt',
         prod: 'Gyvybės draudimas'
     }
 
@@ -33,12 +44,14 @@ const ContactFormBig = props => {
         val[0].value = ''
         val[1].value = ''
         val[2].value = ''
-        console.log(input)
+        console.log('')
+        formSend(input)
 
     }
 
     const inputHandlerName = (event) => {
         input.name = event
+        input.url = document.URL
 
     }
 
@@ -48,7 +61,7 @@ const ContactFormBig = props => {
     }
 
     const inputHandlerProduct = (event) => {
-        console.log(event.target.value)
+        // console.log(event.target.value)
         input.prod = event.target.value
 
     }
@@ -68,7 +81,7 @@ const ContactFormBig = props => {
                     placeholderChar={'_'}
                     onBlur={
                         (value, mask) => {
-                            console.log(value.target.value)
+                            // console.log(value.target.value)
                             inputHandlerName(value.target.value)
                         }
                     }
@@ -84,7 +97,7 @@ const ContactFormBig = props => {
                     placeholderChar={'_'}
                     onBlur={
                         (value, mask) => {
-                            console.log(value.target.value)
+                            // console.log(value.target.value)
                             inputHandlerTel(value.target.value)
                         }
                     }

@@ -3,7 +3,6 @@ import Wrapper from "../Wrapper/Wrapper";
 import img from '../../img/image.jpg'
 import ReactElasticCarousel from "react-elastic-carousel";
 import CarouselQuestionComponent from "../../Components/CarouselQuestionComponent/CarouselQuestionComponent";
-import classes from "./QestionSliderBlock.module.css";
 import './QuestionBlock.css'
 
 const QestionSliderBlock = () => {

@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactElasticCarousel from "react-elastic-carousel";
 import CarouselSliderContent from "./CarouselSliderContent/CarouselSliderContent";
-import classes from './CarouselSlider.module.css'
 import './CarouselSlider.css'
 
 

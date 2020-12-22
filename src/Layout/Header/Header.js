@@ -2,15 +2,12 @@ import React from "react";
 import classes from './Header.module.css';
 import Wrapper from "../Wrapper/Wrapper";
 import Social from "../../Components/Socials/Social";
-import {SocialData} from '../../Data/DataSocial';
-import {DataIcons} from "../../Data/DataIcons";
 import Links from "../../Components/Links/Links";
 import Logo from "../../Components/Logo/Logo";
 import LogoInsurance from '../../img/logo.png';
 import HeaderContacts from "../../Components/HeaderContacts/HeaderContacts";
 import ButtonWithPic from "../../Components/ButtonWithPic/ButtonWithPic";
 import NavBar from "../../Components/NavBar/NavBar";
-import {NavLink} from "react-router-dom";
 
 
 const Header = props => {

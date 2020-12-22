@@ -3,7 +3,6 @@ import classes from './CarouselSliderContent.module.css'
 import ButtonFilled from "../../ButtonFilled/ButtonFilled";
 import ButtonTransparent from "../../ButtonTransparent/ButtonTransparent";
 import Wrapper from "../../../Layout/Wrapper/Wrapper";
-import {SocialData} from "../../../Data/DataSocial";
 
 
 

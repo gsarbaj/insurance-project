@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from './ProductCardSection.module.css'
 import ProducktDescriptionCard from "../../Components/ProducktDescriptionCard/ProducktDescriptionCard";
-import {SocialData} from "../../Data/DataSocial";
 import Wrapper from "../Wrapper/Wrapper";
 import card1_icon from '../../img/service_icon1.png';
 import card2_icon from '../../img/feature_icon2.png';

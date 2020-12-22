@@ -2,7 +2,6 @@ import React from 'react';
 import ReactElasticCarousel from "react-elastic-carousel";
 import RewContent from "./RewContent/RewContent";
 import Wrapper from "../../Layout/Wrapper/Wrapper";
-import classes from "./Rew.module.css";
 import './Review.css'
 
 const Rew = props => {
