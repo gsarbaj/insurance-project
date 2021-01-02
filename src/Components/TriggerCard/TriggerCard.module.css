@@ -1,8 +1,20 @@
 .TriggerCard{
-    margin: 0 15px;
+    margin: 0 auto 20px;
     position: relative;
     width: 255px;
     height: 330px;
+}
+
+@media (min-width: 767px) {
+    .TriggerCard {
+        margin: 0 15px 20px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .TriggerCard {
+        margin: 0 15px;
+    }
 }
 
 .img{

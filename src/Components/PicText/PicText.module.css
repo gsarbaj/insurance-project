@@ -1,4 +1,5 @@
 .PicText__title {
+    display: none;
     margin: 0;
     margin-bottom: 30px;
     width: 78%;
@@ -12,6 +13,7 @@
 }
 
 .PicText__text {
+    display: none;
     margin: 0;
     color: #193656;
     font-size: 16px;
@@ -20,5 +22,18 @@
 }
 
 .PicText__img {
+    display: none;
     margin-top: 20px;
+}
+
+@media (min-width: 767px) {
+    .PicText__title,
+    .PicText__text,
+    .PicText__img {
+        display: block;
+    }
+
+    .PicText__img {
+        width: 100%;
+    }
 }

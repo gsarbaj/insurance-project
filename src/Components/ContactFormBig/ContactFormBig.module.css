@@ -1,9 +1,15 @@
 .ContactFormBig {
-    padding: 40px 50px;
+    padding: 40px 20px;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 35px 48px 0 rgba(0,0,0,.07);
     text-align: left;
+}
+
+@media (min-width: 767px) {
+    .ContactFormBig {
+        padding: 40px 50px;
+    }
 }
 
 .ContactFormBig h4 {
