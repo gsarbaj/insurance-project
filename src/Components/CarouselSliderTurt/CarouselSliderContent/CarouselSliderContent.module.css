@@ -1,9 +1,30 @@
 .CarouselSliderContent {
-    margin: 0 auto;
-    padding-top: 195px;
-    padding-bottom: 195px;
-    width: 1100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
     text-align: left;
+    box-sizing: border-box;
+}
+
+@media (min-width: 767px) {
+    .CarouselSliderContent {
+        padding-left: 145px;
+        padding-right: 0;
+        padding-top: 195px;
+        padding-bottom: 195px;
+        width: 767px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .CarouselSliderContent {
+        margin: 0 auto;
+        padding-left: 0;
+        width: 1100px;
+        box-sizing: initial;
+    }
 }
 
 .CarouselSliderContent__desc {
@@ -25,21 +46,28 @@
     right: -90px;
 }
 
-.CarouselSliderContent h2 {
+.CarouselSliderContent h1 {
     margin: 0;
     margin-top: 15px;
     width: 65%;
     text-transform: uppercase;
-    line-height: 58px;
+    line-height: 120%;
     font-weight: 800;
-    font-size: 52px;
+    font-size: 32px;
     color: #ffffff;
 }
 
+@media (min-width: 767px) {
+    .CarouselSliderContent h1 {
+        font-size: 52px;
+        line-height: 58px;
+    }
+}
+
 .CarouselSliderContent p {
-    margin: 20px 0 30px;
+    margin: 20px 0;
     padding-left: 20px;
-    width: 42%;
+    width: 80%;
     position: relative;
     line-height: 28px;
     font-weight: 400;
@@ -47,17 +75,37 @@
     color: #ffffff;
 }
 
+@media (min-width: 767px) {
+    .CarouselSliderContent p {
+        margin: 20px 0 30px;
+        width: 42%;
+    }
+}
+
 .CarouselSliderContent p::before {
     content: "";
     display: block;
     width: 2px;
-    height: 56px;
+    height: 103%;
     background-color: #ffffff;
     position: absolute;
     top: 0;
     left: 0;
 }
 
+@media (min-width: 767px) {
+    .CarouselSliderContent p::before {
+        height: 56px;
+    }
+}
+
 .CarouselSliderContent a:first-of-type {
     margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 767px) {
+    .CarouselSliderContent a:first-of-type {
+        margin-bottom: 0;
+    }
 }
