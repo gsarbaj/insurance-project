@@ -6,35 +6,76 @@
 }
 
 .QuestionSliderBlock > div {
-    width: 1110px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     position: relative;
+    flex-direction: column;
 }
 
-.Question__imgWrapper {
-    position: absolute;
-    width: 495px;
-    height: 393px;
-    box-sizing: border-box;
-    left: 40px;
-    top: -120px;
-    border: 10px solid #003478;
-    border-radius: 10px;
+@media (min-width: 1100px) {
+    .QuestionSliderBlock > div {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1100px) {
+    .QuestionSliderBlock > div {
+        width: 1100px;
+    }
+}
+
+@media (min-width: 767px) {
+    .Question__imgWrapper {
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .Question__imgWrapper {
+        padding: 0;
+        position: absolute;
+        width: 495px;
+        height: 393px;
+        box-sizing: border-box;
+        left: 40px;
+        top: -120px;
+        border: 10px solid #003478;
+        border-radius: 10px;
+    }
 }
 
 .QuestionSliderBlock img {
-    position: absolute;
-    top: -40px;
-    left: -40px;
     border-radius: 5px;
-    width: 495px;
-    height: 393px;
+    width: 300px;
+    height: auto;
+}
+
+@media (min-width: 767px) {
+    .QuestionSliderBlock img {
+        width: 767px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .QuestionSliderBlock img {
+        width: 495px;
+        height: 393px;
+        position: absolute;
+        left: -40px;
+        top: -40px;
+
+    }
 }
 
 .QuestionSliderBlock .rec-carousel-wrapper {
-    margin-left: auto;
-    width: 45%;
+}
+
+@media (min-width: 1100px) {
+    .QuestionSliderBlock .rec-carousel-wrapper {
+        margin-left: auto;
+        width: 45%;
+    }
 }
 
 .QuestionSliderBlock .rec-dot {
@@ -79,9 +120,16 @@
 
 .QuestionSliderBlock .rec-pagination {
     position: absolute;
-    top: 50%;
-    right: -40px;
+    bottom: -42px;
+    right: 2px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
+}
+
+@media (min-width: 1100px) {
+    .QuestionSliderBlock .rec-pagination {
+        top: 50%;
+        bottom: initial;
+    }
 }

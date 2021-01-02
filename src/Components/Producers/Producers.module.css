@@ -4,8 +4,8 @@
 }
 
 .Producers__title {
-    padding-left: 18px;
-    max-width: 200px;
+    margin-bottom: 20px;
+    width: 100%;
     position: relative;
     color: #003486;
     font-size: 24px;
@@ -15,15 +15,30 @@
     text-align: left;
 }
 
-.Producers__title::before {
-    content: "";
-    display: block;
-    width: 5px;
-    height: 45px;
-    background-color: #003478;
-    position: absolute;
-    top: 3px;
-    left: 0;
+@media (min-width: 767px) {
+    .Producers__title {
+        margin-bottom: 0;
+        padding-left: 18px;
+        max-width: 200px;
+        width: initial;
+    }
+}
+
+@media (min-width: 767px) {
+    .Producers__title {
+        max-width: 200px;
+    }
+
+    .Producers__title::before {
+        content: "";
+        display: block;
+        width: 5px;
+        height: 45px;
+        background-color: #003478;
+        position: absolute;
+        top: 3px;
+        left: 0;
+    }
 }
 
 .Producers img {

@@ -4,5 +4,11 @@
 
 .About{
     margin-top: 45px;
-    margin-bottom: 160px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 767px) {
+    .About {
+        margin-bottom: 160px;
+    }
 }

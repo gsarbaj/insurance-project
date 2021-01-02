@@ -26,11 +26,16 @@
 }
 
 .ContactData ul li {
-    padding-left: 10px;
     color: #193673;
     font-size: 15px;
     line-height: 22px;
     font-weight: 400;
+}
+
+@media (min-width: 767px) {
+    .ContactData ul li {
+        padding-left: 10px;
+    }
 }
 
 .ContactData ul li:not(:last-child) {
